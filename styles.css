@@ -1,0 +1,46 @@
+header {
+    background-color: #7CC1C2;
+    color: #ffffff;
+    font-family: Edwardian Script ITC;
+    padding: 10px;
+    top: 0;
+    left: 0;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    text-align: center;
+   font-size: 50px;
+   margin-top: 0%;
+}
+
+section p {
+    font-family: Comic Sans MS; 
+}
+.gif {
+    border-radius: 30px
+}
