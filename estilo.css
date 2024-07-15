@@ -31,7 +31,25 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  
+    
+}
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+    color: white ;  
+}
+nav ul li a {
+    color: white;
+    justify-content: center;
+}
+nav ul li:hover {
+    background-color: #588586 ;
+}
 header h1 {
     text-align: center;
    font-size: 50px;
@@ -42,4 +60,9 @@ section p {
 }
 .gif2 {
     border-radius: 30px
+}
+section h1 {
+    color: #7CC1C2;
+    font-family: Edwardian Script ITC;
+    font-size: 35px;
 }
